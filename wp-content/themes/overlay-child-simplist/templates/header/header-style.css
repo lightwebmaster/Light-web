@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+# Header Styling
+--------------------------------------------------------------*/
+.site-title {
+    font-size: 40px;
+    line-height: 1;
+    margin: -4px 0 0;
+}
+.site-description {
+    font-size: 12px;
+}
+
+/* ---- Site Header ---- */
+.site-header-inner {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+.stick-logonav.stick-logonav-botalign .stuck .site-header-inner {
+    align-items: flex-end;
+}
+
+.site-branding {
+    flex: 1;
+}
+.main-navigation {
+    box-shadow: none;
+    flex: 2;
+    text-align: right;
+}
+.main-navigation > .site-container {
+    display: inline-block;
+    padding: 0;
+    margin: 0 0 -5px;
+}
+.main-navigation a {
+    padding: 42px 18px;
+}
+.main-navigation.overlay-nav-block a {
+    padding: 42px 10px;
+}
+
+.main-navigation ul ul a {
+    padding: 12px 18px;
+}
+
+.site-stick-header.stick-header.stuck .site-header-inner {
+    padding: 0;
+}
+
+.show-site-search .overlay-search-fade .header-search-block {
+    top: 66px;
+    z-index: 99;
+    width: 300px;
+}

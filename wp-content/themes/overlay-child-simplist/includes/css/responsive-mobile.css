@@ -1,0 +1,17 @@
+/*
+ * Responsive Mobile CSS
+ */
+
+.site-bar-inner {
+    text-align: center;
+}
+
+.site-header-inner,
+.main-navigation {
+    display: block;
+    text-align: center;
+}
+
+.main-navigation .site-container {
+    display: block;
+}
